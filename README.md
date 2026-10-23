@@ -33,17 +33,17 @@
 
 ### Problem
 
-Describe the real-world problem you are solving in 2–4 sentences. Who is affected, and why does it matter?
+Over 60% of university fresh graduates and career switchers feel unprepared for an AI-driven job market where skills rapidly become obsolete and traditional career guidance falls behind. Without clear line-of-sight into future industry shifts, high-potential talent wastes months on outdated upskilling, while employers face widening skill gaps. Our platform solves this by using predictive AI to map emerging and declining roles, automatically generate personalized reskilling pathways and connect every skill to the 17 UN Sustainable Development Goals to guide purpose-driven careers.
 
 ### Solution
 
-Explain how your project uses AI to solve the problem and what makes it valuable.
+Our solution uses a focused AI stack to transform static resume data into dynamic, future-proof career pathways. By programmatically reading uploaded CVs, Natural Language Processing (NLP) extracts and categorizes the candidate’s tools used, skills profile, and knowledge areas into a structured baseline. Machine Learning models trained on labor market trends evaluate this baseline to forecast emerging roles and identify critical skill gaps. Generative AI then constructs personalized reskilling pathways, recommending targeted free online learning resources for each core area and mapping every skill directly to the 17 UN Sustainable Development Goals to guide sustainable career growth.
 
 ### Key Features
 
-- **Feature 1** — Short description.
-- **Feature 2** — Short description.
-- **Feature 3** — Short description.
+- **Automated CV Intelligence (Code Parser & NLP)** — Programmatically parses uploaded PDF resumes to identify and categorize candidate tools used, skills profiles and core knowledge areas into a standardized profile.
+- **Predictive Skill-Gap Analysis (Machine Learning)** — Maps candidate tools and knowledge baselines against labor market datasets to predict emerging role demands and highlight precise skill gaps.
+- **Dynamic Pathway & Resource Curation (Generative AI)** — Recommends personalized reskilling pathways with curated free learning resources while aligning every skill and role to the 17 UN Sustainable Development Goals.
 
 ### Tech Stack
 
