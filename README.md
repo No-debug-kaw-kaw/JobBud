@@ -11,7 +11,7 @@
 | ---------------------- | ------------------------------------------- |
 | **Team Name**          | No Debug Kaw Kaw                            |
 | **Team Domain**        | Domain 1                                    |
-| **SDG Track (1–17)**   | e.g. SDG 11 — Sustainable Cities and Communities |
+| **SDG Track (1–17)**   | SDG 4 - Quality Education |
 | **Team Leader**        | Leader Name                                 |
 | **University**         | University Name(s)                          |
 | **Number of Members**  | e.g. 4                                      |
