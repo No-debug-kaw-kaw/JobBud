@@ -1,7 +1,7 @@
 # SDC_Hackathon_Submission
 # Project Name
 
-> A one-sentence description of what your project does and who it is for.
+> JobBud, your job buddy for university fresh graduates and career switchers. Every career starts somewhere.
 
 ---
 
