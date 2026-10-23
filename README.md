@@ -20,7 +20,7 @@
 
 | Resource          | Link                                           |
 | ----------------- | ---------------------------------------------- |
-| GitHub Repository | https://github.com/ngyy111000-beep/JobBud      |
+| GitHub Repository | https://github.com/your-username/your-project  |
 | Replit Project    | https://replit.com/@your-username/your-project |
 | Live Demo         | https://your-project.replit.app                |
 | RunPod Endpoint   | https://api.runpod.ai/v2/your-endpoint-id      |
@@ -49,10 +49,9 @@ Our solution uses a focused AI stack to transform static resume data into dynami
 
 | Layer         | Technology                   |
 | ------------- | ---------------------------- |
-| Frontend      | e.g. HTML, React             |
+| Frontend      | HTML, CSS |
 | Backend       | e.g. Python, Flask / FastAPI |
-| Database      | e.g. PostgreSQL, SQLite      |
-| AI / Compute  | RunPod (GPU)                 |
+| Database      | O*NET |
 | Hosting / Dev | Replit                       |
 
 ---
@@ -70,8 +69,7 @@ Our solution uses a focused AI stack to transform static resume data into dynami
 ├── submission/              # Required submission documents
 │   ├── SDC2026_TeamName_Preliminary.pdf      # Preliminary submission
 │   ├── SDC2026_TeamName_TechDeclaration.pdf  # Technology declaration
-│   ├── SDC2026_TeamName_Replit_POU.pdf       # Replit proof of use
-│   └── SDC2026_TeamName_Runpod_POU.pdf       # RunPod proof of use
+│   └── SDC2026_TeamName_Replit_POU.pdf       # Replit proof of use
 ├── tests/
 │   └── test_utils.py        # Unit tests
 ├── .env.example             # Example environment variables
