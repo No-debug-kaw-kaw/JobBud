@@ -158,11 +158,11 @@ Technically, we gained valuable experience in prompt engineering and utilizing R
 
 | Name        | Role                | GitHub                                   |
 | ----------- | ------------------- | ---------------------------------------- |
-| Po Rou Jing | Team Lead / Frontend | [@username](https://github.com/username) |
+| Po Rou Jing | Team Lead / Frontend | [@roujing0708](https://github.com/roujing0708) |
 | Soo Yong Xin | Frontend / AI            | [@username](https://github.com/username) |
-| Ng Yen Yi | AI / Backend        | [@username](https://github.com/username) |
+| Ng Yen Yi | AI / Backend        | [@ngyy111000-beep](https://github.com/ngyy111000-beep) |
 | Joey Ng Chu Yee | AI / Backend        | [@username](https://github.com/username) |
-| Tan Joshuen | AI / Backend         | [@username](https://github.com/username) |
+| Tan Joshuen | AI / Backend         | [@joshuen527](https://github.com/joshuen527) |
 
 ---
 
