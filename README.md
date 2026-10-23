@@ -1,7 +1,8 @@
 # SDC_Hackathon_Submission
 # Project Name
 
-> JobBud, your job buddy for university fresh graduates and career switchers. Every career starts somewhere.
+> JobBud, your job buddy for university fresh graduates and career switchers.
+> Every career starts somewhere.
 
 ---
 
@@ -23,7 +24,6 @@
 | GitHub Repository | https://github.com/ngyy111000-beep/JobBud      |
 | Replit Project    | https://replit.com/@your-username/your-project |
 | Live Demo         | https://your-project.replit.app                |
-| RunPod Endpoint   | https://api.runpod.ai/v2/your-endpoint-id      |
 | Slide Deck        | https://example.com/slides                     |
 | Demo Video        | https://example.com/demo-video                 |
 
@@ -159,10 +159,10 @@ Technically, we gained valuable experience in prompt engineering and utilizing R
 | Name        | Role                | GitHub                                   |
 | ----------- | ------------------- | ---------------------------------------- |
 | Po Rou Jing | Team Lead / Frontend | [@roujing0708](https://github.com/roujing0708) |
-| Soo Yong Xin | Frontend / AI            | [@username](https://github.com/username) |
-| Ng Yen Yi | AI / Backend        | [@ngyy111000-beep](https://github.com/ngyy111000-beep) |
-| Joey Ng Chu Yee | AI / Backend        | [@username](https://github.com/username) |
-| Tan Joshuen | AI / Backend         | [@joshuen527](https://github.com/joshuen527) |
+| Soo Yong Xin | Frontend / AI | [@yongxinsoo-bit](https://github.com/yongxinsoo-bit) |
+| Ng Yen Yi | Backend / Writer | [@ngyy111000-beep](https://github.com/ngyy111000-beep) |
+| Joey Ng Chu Yee | AI / Backend | [@joeyng050321-ux](https://github.com/joeyng050321-ux) |
+| Tan Joshuen | Ideation / Presenter | [@joshuen527](https://github.com/joshuen527) |
 
 ---
 
