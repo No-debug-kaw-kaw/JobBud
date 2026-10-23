@@ -10,12 +10,12 @@
 
 | Field                  | Details                                     |
 | ---------------------- | ------------------------------------------- |
-| **Team Name**          | No Debug Kaw Kaw |
+| **Team Name**          | No debug kaw kaw |
 | **Team Domain**        | Domain 1 |
 | **SDG Track (1–17)**   | SDG 4 - Quality Education |
 | **Team Leader**        | Po Rou Jing |
 | **University**         | Universiti Malaya |
-| **Number of Members**  | 4 |
+| **Number of Members**  | 5 |
 
 ## Links
 
