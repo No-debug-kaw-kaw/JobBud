@@ -139,31 +139,15 @@ Describe how your team used Replit. For example:
 
 📄 Proof of use: [`submission/SDC2026_TeamName_Replit_POU.pdf`](submission/SDC2026_TeamName_Replit_POU.pdf)
 
-## How We Use RunPod *(Required)*
-
-Describe how your team used RunPod. For example:
-
-- **Workload:** Model inference (e.g. text generation, image processing) runs on a RunPod GPU.
-- **Setup:** `runpod/handler.py` is deployed as a **RunPod Serverless Endpoint**.
-- **Integration:** The Replit app sends requests to the endpoint using `RUNPOD_API_KEY` and `RUNPOD_ENDPOINT_ID`.
-
-Example request:
-
-```bash
-curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
-  -H "Authorization: Bearer $RUNPOD_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"input": {"prompt": "Hello"}}'
-```
-
-📄 Proof of use: [`submission/SDC2026_TeamName_Runpod_POU.pdf`](submission/SDC2026_TeamName_Runpod_POU.pdf)
-
 ---
 
 ## Challenges & Learnings
 
-- What challenges did you face, and how did you overcome them?
-- What did your team learn?
+Our biggest hurdle was handling compilation and integration errors where code failed or functioned only partially. As first-time hackathon participants, troubleshooting these technical roadblocks under tight time constraints was intense. We overcome this by leveraging AI-driven debugging tools and modern AI prompting to rapidly pinpoint bugs, refactor broken logic, and turn our non-functional components into a smooth, running website.
+
+We learned that clear communication and proactive team structure are essential to executing an ambitious idea. Starting without prior hackathon experience, we navigated the initial uncertainty by establishing strong task division, supporting one another and holding frequent syncs to align our vision. Through this cooperation, we went from feeling overwhelmed to seamlessly co-creating JobBud.
+
+Technically, we gained valuable experience in prompt engineering and utilizing Replit to build and scale big software concepts efficiently. Watching JobBud evolve from an abstract idea from scratch into a blooming, functional website capable of helping real people was an empowering experience that taught us the true value of team synergy and modern developer tools.
 
 ## Future Improvements
 
@@ -174,9 +158,11 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 
 | Name        | Role                | GitHub                                   |
 | ----------- | ------------------- | ---------------------------------------- |
-| Member Name | Team Lead / Backend | [@username](https://github.com/username) |
-| Member Name | Frontend            | [@username](https://github.com/username) |
-| Member Name | AI / RunPod         | [@username](https://github.com/username) |
+| Po Rou Jing | Team Lead / Backend | [@username](https://github.com/username) |
+| Soo Yong Xin | Frontend / AI            | [@username](https://github.com/username) |
+| Ng Yen Yi | AI / Backend        | [@username](https://github.com/username) |
+| Joey Ng Chu Yee | AI / Backend        | [@username](https://github.com/username) |
+| Tan Joshuen | AI / RunPod         | [@username](https://github.com/username) |
 
 ---
 
