@@ -106,19 +106,20 @@ JobBud/
 ├── LICENSE
 ├── README.md
 ├── pyproject.toml         
-└── uv.lock                    
+└── uv.lock
 
-### Architecture
+```                
 
+## Architecture
 
-```
+```text
 User
   │
   ▼
 Replit-hosted Streamlit Application
   │
   ├── Career Matching Engine
-  │     └── O*NET occupational datasets
+  │     └── O*NET Occupational Datasets
   │
   ├── Skill Gap Analysis
   │
@@ -128,21 +129,20 @@ Replit-hosted Streamlit Application
   │     ├── Himalayas
   │     ├── Remotive
   │     ├── GDELT
-  │     └── OpenDOSM
+  │     └── DOSM / OpenDOSM
   │
   ├── AI Disruption Scenario Engine
   │
   └── SDG Mapping Engine
-        │
-        ▼
-Career Recommendations, Skill Gaps,
-Learning Pathways and Market Insights
-        │
-        ▼
-      User
+  │
+  ▼
+Career Recommendations
+Skill Gaps
+Learning Pathways
+Market Insights
 ```
+JobBud uses a deterministic and explainable scoring approach for career matching. O*NET occupational data is combined with user-provided assessment information, while public labour-market sources provide additional market context.
 
----
 
 ## How to Run
 
@@ -173,40 +173,45 @@ uv sync
 uv run streamlit run src/app.py
 ```
 
-```
-
 ### Run Tests
 
 ```bash
 python -m unittest discover tests
-```
-
+``` 
 ---
 
 ## How We Use Replit *(Required)*
 
-Describe how your team used Replit. For example:
+Replit is used as the primary cloud-based development, testing, and deployment environment for JobBud.
 
-- **Development:** Collaborative coding in a shared Repl using Multiplayer.
-- **Hosting:** The app is deployed with Replit Deployments at the Live Demo link above.
-- **Secrets:** API keys are stored in Replit Secrets, never in the code.
+- **Development:** Our team used Replit to develop, debug, and test the Streamlit application in a shared cloud-based workspace.
+- **Integration:** Replit was used to integrate the career-matching engine, skill-gap analysis, reskilling pathway, labour-market signals, AI disruption scenarios, and SDG mapping into one application.
+- **Testing:** Core application functions and supporting engines were tested within the Replit environment.
+- **Hosting:** The JobBud Streamlit prototype is hosted through Replit, allowing the application to be accessed through a browser.
+- **Dependency Management:** Project dependencies are managed using `pyproject.toml` and `uv.lock`.
 
-📄 Proof of use: [`submission/SDC2026_TeamName_Replit_POU.pdf`](submission/SDC2026_TeamName_Replit_POU.pdf)
-
----
+📄 **Proof of Use:** 
 
 ## Challenges & Learnings
 
-Our biggest hurdle was handling compilation and integration errors where code failed or functioned only partially. As first-time hackathon participants, troubleshooting these technical roadblocks under tight time constraints was intense. We overcome this by leveraging AI-driven debugging tools and modern AI prompting to rapidly pinpoint bugs, refactor broken logic, and turn our non-functional components into a smooth, running website.
+One of our biggest challenges was integrating multiple components into a single working application within a limited hackathon timeframe. JobBud combines career matching, skill-gap analysis, reskilling pathways, labour-market signals, AI-disruption scenarios, SDG mapping, multilingual support, and external data sources. Some components worked independently but required additional debugging and testing when integrated into the complete Streamlit application.
 
-We learned that clear communication and proactive team structure are essential to executing an ambitious idea. Starting without prior hackathon experience, we navigated the initial uncertainty by establishing strong task division, supporting one another and holding frequent syncs to align our vision. Through this cooperation, we went from feeling overwhelmed to seamlessly co-creating JobBud.
+As first-time hackathon participants, we learned the importance of clear task division, frequent communication, and continuous testing. Our team used Replit Agent to assist with code generation, debugging, troubleshooting, technical explanations, and documentation. However, AI-generated suggestions were reviewed, modified, and tested by the team before being integrated into the final prototype.
 
-Technically, we gained valuable experience in prompt engineering and utilizing Replit to build and scale big software concepts efficiently. Watching JobBud evolve from an abstract idea from scratch into a blooming, functional website capable of helping real people was an empowering experience that taught us the true value of team synergy and modern developer tools.
+Technically, we gained practical experience in working with O*NET occupational datasets, integrating public APIs, developing transparent weighted scoring methods, structuring a modular Python application, and deploying a Streamlit application through Replit.
+
+We also learned that different data sources must be interpreted carefully. O*NET is used as an occupational skills framework, current job-posting APIs provide market-presence signals, GDELT provides technology-attention signals, and AI-disruption scenarios are estimates based on predefined assumptions rather than guaranteed predictions.
+
+Most importantly, we learned that career guidance should not simply provide a job recommendation. It should explain why a role may be suitable, identify skill gaps, and provide users with practical next steps for development.
 
 ## Future Improvements
 
-- [ ] Improvement 1
-- [ ] Improvement 2
+- [ ] Expand career coverage beyond the current 11 occupations.
+- [ ] Improve skill assessment to reduce reliance on self-reported ratings.
+- [ ] Integrate more Malaysia-specific labour-market and salary data.
+- [ ] Improve external API reliability, caching, and fallback mechanisms.
+- [ ] Refine and validate AI-disruption scenarios using additional research and evidence.
+- [ ] Conduct user testing with fresh graduates and career switchers.
 
 ## Team
 
