@@ -146,36 +146,13 @@ JobBud uses a deterministic and explainable scoring approach for career matching
 
 ## How to Run
 
-### Option 1 — Access the Live Demo (Recommended)
+### Access the Live Demo
 
 1. Open the [JobBud Live Demo](https://sdc-army0709.replit.app ) project in Replit.
 2. Once the application loads, complete the questionnaire or upload your CV to create your skills profile.
 3. Explore your career matches, skill gaps, personalised reskilling pathways, salary benchmarks, AI disruption scenarios and SDG mapping.
 
 _Note:_ JobBud is a Python and Streamlit web application hosted on Replit. The live demo allows users to try the application directly without setting up the source code.
-
-### Option 2 — Run Locally
-
-Prerequisites
-- Python 3.11 or newer
-- Git
-- uv package manager
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/ngyy111000-beep/JobBud.git
-cd JobBud
-
-# 2. Install the project dependencies
-uv sync
-
-# 3. Run the application
-uv run streamlit run src/app.py
-
-# 4. Open the local URL displayed in the terminal, usually http://localhost:8501, to access JobBud.
-```
-
-*Note:* Ensure that the project files and the `data/` directory remain in their expected locations. An internet connection may be required to retrieve external job-market data and access online resources.
 
 ---
 
