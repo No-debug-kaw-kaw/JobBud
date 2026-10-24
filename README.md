@@ -22,7 +22,7 @@
 
 | Resource          | Link                                           |
 | ----------------- | ---------------------------------------------- |
-| GitHub Repository | https://github.com/ngyy111000-beep/JobBud      |
+| GitHub Repository | https://github.com/No-debug-kaw-kaw/JobBud     |
 | Live Demo         | https://sdc-army0709.replit.app                |
 | Slide Deck        | https://example.com/slides                     |
 | Demo Video        | https://example.com/demo-video                 |
