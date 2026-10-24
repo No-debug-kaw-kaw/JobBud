@@ -146,22 +146,43 @@ JobBud uses a deterministic and explainable scoring approach for career matching
 
 ## How to Run
 
-### Access the Live Demo
+### Option 1 — Access the Live Demo
 
-1. Open the [JobBud Live Demo](https://sdc-army0709.replit.app ) project in Replit.
-2. Once the application loads, complete the questionnaire or upload your CV to create your skills profile.
-3. Explore your career matches, skill gaps, personalised reskilling pathways, salary benchmarks, AI disruption scenarios and SDG mapping.
+Open the [JobBud Live Demo](https://sdc-army0709.replit.app).
 
-_Note:_ JobBud is a Python and Streamlit web application hosted on Replit. The live demo allows users to try the application directly without setting up the source code.
+1. Choose either the **No-CV Questionnaire** or **Upload CV** option.
+2. Review and confirm your skills, knowledge areas, tools, background and career interests.
+3. Click **Explore My Career Matches**.
+4. Explore your career matches, skill gaps, personalised learning pathway, Malaysian salary context, AI and job-market signals, disruption scenarios, and SDG mapping.
 
----
+> **Demo note:** Please use a synthetic or sample CV. Uploaded CVs are processed only for the current session and are not intentionally stored in a database.
+
+### Option 2 — Run from Source
+
+View the source code on [GitHub](https://github.com/ngyy111000-beep/JobBud).
+
+```bash
+git clone https://github.com/ngyy111000-beep/JobBud.git
+cd JobBud
+python -m venv venv
+venv\Scripts\activate
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+Then open the local Streamlit URL shown in the terminal, usually:
+
+```text
+http://localhost:8501
+```
 
 ### Run Tests
+
+Run the automated tests with:
 
 ```bash
 python -m unittest discover tests
 ```
-
 ---
 
 ## How We Use Replit *(Required)*
