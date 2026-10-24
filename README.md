@@ -164,10 +164,9 @@ View the source code on [GitHub](https://github.com/ngyy111000-beep/JobBud).
 ```bash
 git clone https://github.com/ngyy111000-beep/JobBud.git
 cd JobBud
-python -m venv venv
-venv\Scripts\activate
-python -m pip install -r requirements.txt
-python -m streamlit run app.py
+python -m pip install uv
+uv sync
+uv run streamlit run src/app.py
 ```
 
 Then open the local Streamlit URL shown in the terminal, usually:
