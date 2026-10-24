@@ -33,16 +33,18 @@
 
 ### Problem
 
-Fresh graduates and career switchers navigating analytical, financial, and technical fields face a critical challenge: aligning their existing capabilities with rapidly changing industry requirements without clear, data-driven guidance. As automation, artificial intelligence, and data-intensive roles reshape career pathways, job seekers may struggle to assess their current skill readiness, identify transferable strengths, and understand specific competency gaps in areas such as quantitative analysis, complex problem-solving, systems thinking, and digital tools.
-This challenge has broader economic and social implications. Limited access to transparent career guidance can contribute to career mismatch, underemployment, and inefficient workforce transitions, affecting productive employment under Sustainable Development Goal (SDG) 8 and lifelong skills development under SDG 4. TalentCorp’s workforce impact study further highlights the scale of workforce transformation in Malaysia, showing that technological and economic shifts are expected to significantly affect a substantial number of workers.
-JobBud addresses this information gap by comparing user-provided skills and knowledge with structured occupational evidence, identifying development priorities, and presenting personalised reskilling pathways. The solution aims to support more informed career decisions while contributing to skills development, decent work, and innovation under SDGs 4, 8, and 9.
+Fresh graduates and career switchers are often unsure which career paths best match their existing skills, knowledge and interests. At the same time, rapid AI and technology changes are reshaping job requirements faster than traditional career guidance can keep up. This creates a risk of people investing time in the wrong skills, overlooking suitable opportunities, or struggling to adapt to changing roles. A more dynamic, evidence-based career guidance system is needed to help them make clearer and more future-ready decisions.
 
 ### Solution
 
 JobBud is an intelligent web-based career guidance solution designed to help fresh graduates and career switchers navigate rapidly evolving job markets through transparent, evidence-based recommendations.
+
 The application uses deterministic computational methods to compare user-provided skills, knowledge, and self-reported technology experience with structured occupational data from O*NET. It produces explainable career-alignment scores, identifies strengths and development priorities, and generates personalised reskilling pathways using verified or team-curated learning resources.
+
 JobBud also incorporates updatable labour-market and technology signals from public sources, including current job postings and AI-related news attention, to provide additional market context. These signals are presented as indicators rather than guaranteed forecasts. Moderate and fast AI-disruption scenarios allow users to explore how career comparisons may change under different assumptions.
+
 The prototype is developed in Python using Streamlit and deployed through Replit. An optional RunPod AI layer is designed to convert already-computed structured results into concise natural-language explanations without determining or modifying career scores.
+
 Career recommendations remain informational guidance, with human judgement kept at the centre of career decisions.
 
 ### Key Features
