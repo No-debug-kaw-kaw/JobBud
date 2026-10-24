@@ -152,7 +152,7 @@ JobBud uses a deterministic and explainable scoring approach for career matching
 2. Once the application loads, complete the questionnaire or upload your CV to create your skills profile.
 3. Explore your career matches, skill gaps, personalised reskilling pathways, salary benchmarks, AI disruption scenarios and SDG mapping.
 
-Note: JobBud is a Python and Streamlit web application hosted on Replit. The live demo allows users to try the application directly without setting up the source code.
+_Note:_ JobBud is a Python and Streamlit web application hosted on Replit. The live demo allows users to try the application directly without setting up the source code.
 
 ### Option 2 — Run Locally
 
@@ -171,7 +171,7 @@ uv sync
 uv run streamlit run src/app.py
 4. Open the local URL displayed in the terminal, usually http://localhost:8501, to access JobBud.
 
-Note: The application requires the project files and the data/ directory to remain in their expected locations. Internet access may be required for external job-market data and other online resources.
+*Note:* Ensure that the project files and the `data/` directory remain in their expected locations. An internet connection may be required to retrieve external job-market data and access online resources.
 
 ---
 
