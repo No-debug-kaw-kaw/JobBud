@@ -179,6 +179,14 @@ uv run streamlit run src/app.py
 
 ---
 
+### Run Tests
+
+```bash
+python -m unittest discover tests
+```
+
+---
+
 ## How We Use Replit *(Required)*
 
 Replit is used as the primary cloud-based development, testing, and deployment environment for JobBud.
