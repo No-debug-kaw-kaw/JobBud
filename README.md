@@ -201,7 +201,7 @@ Most importantly, we learned that career guidance should not simply provide a jo
 
 ## Future Improvements
 
-- [ ] Expand career coverage beyond the current 11 occupations.
+- [ ] Expand career coverage 
 - [ ] Improve skill assessment to reduce reliance on self-reported ratings.
 - [ ] Integrate more Malaysia-specific labour-market and salary data.
 - [ ] Improve external API reliability, caching, and fallback mechanisms.
