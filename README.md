@@ -49,8 +49,8 @@ JobBud is a future-ready career and reskilling platform that transforms users' e
 
 | Layer         | Technology                   |
 | ------------- | ---------------------------- |
-| Frontend      | HTML, CSS |
-| Backend       | e.g. Python, Flask / FastAPI |
+| Frontend      | Streamlit |
+| Backend       | Python |
 | Database      | O*NET |
 | Hosting / Dev | Replit                       |
 
