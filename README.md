@@ -180,7 +180,8 @@ http://localhost:8501
 Run the automated tests with:
 
 ```bash
-python -m unittest discover tests
+set PYTHONPATH=%CD%\src
+uv run python -m unittest discover tests
 ```
 ---
 
