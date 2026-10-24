@@ -161,6 +161,7 @@ Prerequisites
 - Git
 - uv package manager
 
+```bash
 **Steps**
 1. Clone the repository
 git clone https://github.com/ngyy111000-beep/JobBud.git
@@ -170,6 +171,7 @@ uv sync
 3. Run the application
 uv run streamlit run src/app.py
 4. Open the local URL displayed in the terminal, usually http://localhost:8501, to access JobBud.
+```
 
 *Note:* Ensure that the project files and the `data/` directory remain in their expected locations. An internet connection may be required to retrieve external job-market data and access online resources.
 
