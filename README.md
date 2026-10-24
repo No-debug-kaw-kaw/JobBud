@@ -50,7 +50,7 @@ Career recommendations remain informational guidance, with human judgement kept 
 - **Automated CV-Assisted Profiling** — Parses uploaded PDF or DOCX CVs to suggest relevant skills, knowledge areas and tools, reducing repetitive data entry while allowing users to confirm suggestions and rate their own proficiency.
 - **Explainable Career Matching & AI-Era Insights** — Matches users against 11 O*NET occupations using skills, knowledge and technology data, supplemented by available job-market signals and moderate-versus-fast AI disruption scenarios. Recommendations include matching scores, assessment confidence, strengths and skill gaps.
 - **Personalised Reskilling Pathways & SDG Mapping** — Prioritises skill gaps for a selected career and recommends structured learning steps with estimated learning times and verified resources where available. Career roles are also mapped to relevant UN Sustainable Development Goals, with explanations and links to official references.
-- - **Multilingual Interface** — Supports English, Bahasa Melayu, and Chinese to make career guidance more accessible.
+- **Multilingual Interface** — Supports English, Bahasa Melayu, and Chinese to make career guidance more accessible.
 - **Privacy-Conscious Session Processing** — User assessment information is processed within the active session and is not intentionally stored in a persistent user database.
 
 ### Tech Stack
