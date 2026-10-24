@@ -33,17 +33,25 @@
 
 ### Problem
 
-Fresh graduates and career switchers often struggle to identify suitable career paths, understand how AI is changing job-market demands and determine which skills they should develop next. With career information, industry trends and learning resources scattered across different platforms, users risk spending time on irrelevant upskilling while employers continue to face skills gaps. Without clearer career guidance and actionable learning plans, it becomes difficult for individuals to prepare for an evolving, AI-driven job market.
+Fresh graduates and career switchers navigating analytical, financial, and technical fields face a critical challenge: aligning their existing capabilities with rapidly changing industry requirements without clear, data-driven guidance. As automation, artificial intelligence, and data-intensive roles reshape career pathways, job seekers may struggle to assess their current skill readiness, identify transferable strengths, and understand specific competency gaps in areas such as quantitative analysis, complex problem-solving, systems thinking, and digital tools.
+This challenge has broader economic and social implications. Limited access to transparent career guidance can contribute to career mismatch, underemployment, and inefficient workforce transitions, affecting productive employment under Sustainable Development Goal (SDG) 8 and lifelong skills development under SDG 4. TalentCorp’s workforce impact study further highlights the scale of workforce transformation in Malaysia, showing that technological and economic shifts are expected to significantly affect a substantial number of workers.
+JobBud addresses this information gap by comparing user-provided skills and knowledge with structured occupational evidence, identifying development priorities, and presenting personalised reskilling pathways. The solution aims to support more informed career decisions while contributing to skills development, decent work, and innovation under SDGs 4, 8, and 9.
 
 ### Solution
 
-JobBud is a future-ready career and reskilling platform that transforms users' existing skills into personalised career directions and actionable learning pathways. By allowing users to complete a skills questionnaire or upload their CV, JobBud extracts potential skills, knowledge areas and tools to build a structured profile, which users can review and rate themselves. It combines explainable career matching based on O*NET occupational data with job-market signals, AI disruption scenarios and prioritised skill-gap analysis to help users explore career opportunities and identify what to learn next. JobBud also incorporates Malaysian salary context and maps relevant career roles to the UN Sustainable Development Goals (SDGs) to encourage informed and purpose-driven career planning.
+JobBud is an intelligent web-based career guidance solution designed to help fresh graduates and career switchers navigate rapidly evolving job markets through transparent, evidence-based recommendations.
+The application uses deterministic computational methods to compare user-provided skills, knowledge, and self-reported technology experience with structured occupational data from O*NET. It produces explainable career-alignment scores, identifies strengths and development priorities, and generates personalised reskilling pathways using verified or team-curated learning resources.
+JobBud also incorporates updatable labour-market and technology signals from public sources, including current job postings and AI-related news attention, to provide additional market context. These signals are presented as indicators rather than guaranteed forecasts. Moderate and fast AI-disruption scenarios allow users to explore how career comparisons may change under different assumptions.
+The prototype is developed in Python using Streamlit and deployed through Replit. An optional RunPod AI layer is designed to convert already-computed structured results into concise natural-language explanations without determining or modifying career scores.
+Career recommendations remain informational guidance, with human judgement kept at the centre of career decisions.
 
 ### Key Features
 
 - **Automated CV-Assisted Profiling** — Parses uploaded PDF or DOCX CVs to suggest relevant skills, knowledge areas and tools, reducing repetitive data entry while allowing users to confirm suggestions and rate their own proficiency.
 - **Explainable Career Matching & AI-Era Insights** — Matches users against 11 O*NET occupations using skills, knowledge and technology data, supplemented by available job-market signals and moderate-versus-fast AI disruption scenarios. Recommendations include matching scores, assessment confidence, strengths and skill gaps.
 - **Personalised Reskilling Pathways & SDG Mapping** — Prioritises skill gaps for a selected career and recommends structured learning steps with estimated learning times and verified resources where available. Career roles are also mapped to relevant UN Sustainable Development Goals, with explanations and links to official references.
+- - **Multilingual Interface** — Supports English, Bahasa Melayu, and Chinese to make career guidance more accessible.
+- **Privacy-Conscious Session Processing** — User assessment information is processed within the active session and is not intentionally stored in a persistent user database.
 
 ### Tech Stack
 
@@ -60,31 +68,78 @@ JobBud is a future-ready career and reskilling platform that transforms users' e
 ## Project Structure
 
 ```
-.
-├── docs/                    # Screenshots, diagrams
+JobBud/
 ├── src/
-│   ├── main.py              # Application entry point
-│   └── utils.py             # Helper functions
-├── submission/              # Required submission documents
-│   ├── SDC2026_TeamName_Preliminary.pdf      # Preliminary submission
-│   ├── SDC2026_TeamName_TechDeclaration.pdf  # Technology declaration
-│   └── SDC2026_TeamName_Replit_POU.pdf       # Replit proof of use
+│   ├── app.py                 
+│   ├── ai_explainer.py         
+│   ├── ai_trend_sources.py     
+│   ├── background_data.py      
+│   ├── career_engine.py        
+│   ├── gdelt_engine.py         
+│   ├── i18n.py                 
+│   ├── reskill_engine.py       
+│   ├── salary_engine.py       
+│   ├── scenario_engine.py     
+│   ├── sdg_engine.py           
+│   └── trend_engine.py        
+│
+├── data/
+│   ├── occupation_data.csv
+│   ├── essential_skills.csv
+│   ├── transferable_skills.csv
+│   ├── knowledge.csv
+│   ├── software_skills.csv
+│   └── related_occupations.csv
+│
 ├── tests/
-│   └── test_utils.py        # Unit tests
-├── .env.example             # Example environment variables
-├── .gitignore
-├── .replit                  # Replit run configuration
+│   ├── test_ai_trend_recovery.py
+│   ├── test_app_scenarios.py
+│   ├── test_background_data.py
+│   ├── test_cv_matching.py
+│   ├── test_engines.py
+│   ├── test_gdelt_engine.py
+│   └── test_i18n.py
+│
+├── .env.example               
+├── .gitignore                 
+├── .replit                   
 ├── LICENSE
-├── requirements.txt         # Python dependencies
-└── README.md
-```
+├── README.md
+├── pyproject.toml         
+└── uv.lock                    
 
 ### Architecture
 
+
 ```
-User ──► Replit (App / API) ──► RunPod Endpoint (GPU model)
-                │
-                └──► Response returned to user
+User
+  │
+  ▼
+Replit-hosted Streamlit Application
+  │
+  ├── Career Matching Engine
+  │     └── O*NET occupational datasets
+  │
+  ├── Skill Gap Analysis
+  │
+  ├── Reskilling Pathway Engine
+  │
+  ├── Labour Market Trend Engine
+  │     ├── Himalayas
+  │     ├── Remotive
+  │     ├── GDELT
+  │     └── OpenDOSM
+  │
+  ├── AI Disruption Scenario Engine
+  │
+  └── SDG Mapping Engine
+        │
+        ▼
+Career Recommendations, Skill Gaps,
+Learning Pathways and Market Insights
+        │
+        ▼
+      User
 ```
 
 ---
