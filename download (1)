@@ -1,0 +1,42 @@
+run = "streamlit run app.py --server.address 0.0.0.0 --server.port 3000 --server.headless true"
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-25_05"
+packages = ["glibcLocales"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Streamlit app"
+
+[[workflows.workflow]]
+name = "Streamlit app"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "streamlit run app.py --server.address 0.0.0.0 --server.port 3000 --server.headless true"
+waitForPort = 3000
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 180000
+
+[deployment]
+deploymentTarget = "cloudrun"
+run = "streamlit run app.py --server.address 0.0.0.0 --server.port 3000 --server.headless true"
