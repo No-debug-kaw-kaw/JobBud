@@ -1,7 +1,6 @@
 # SDC_Hackathon_Submission
-# Project Name
+# JobBud
 
-JobBud
 > Your job buddy for fresh graduates and career switchers, helping them discover suitable career paths and personalised reskilling steps for an AI-driven job market.
 > Every career starts somewhere.
 
