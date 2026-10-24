@@ -23,7 +23,7 @@
 | ----------------- | ---------------------------------------------- |
 | GitHub Repository | https://github.com/ngyy111000-beep/JobBud      |
 | Replit Project    | https://replit.com/@your-username/your-project |
-| Live Demo         | https://your-project.replit.app                |
+| Live Demo         | [https://sdc-army0709.replit.app](https://sdc-army0709.replit.app)                |
 | Slide Deck        | https://example.com/slides                     |
 | Demo Video        | https://example.com/demo-video                 |
 
