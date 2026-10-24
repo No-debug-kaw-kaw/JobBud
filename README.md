@@ -214,11 +214,11 @@ Most importantly, we learned that career guidance should not simply provide a jo
 
 | Name        | Role                | GitHub                                   |
 | ----------- | ------------------- | ---------------------------------------- |
-| Po Rou Jing | Team Lead / Frontend | [@roujing0708](https://github.com/roujing0708) |
+| Po Rou Jing | Team Lead / Frontend /Backend | [@roujing0708](https://github.com/roujing0708) |
 | Soo Yong Xin | Frontend / Backend | [@yongxinsoo-bit](https://github.com/yongxinsoo-bit) |
-| Ng Yen Yi | Backend / Writer | [@ngyy111000-beep](https://github.com/ngyy111000-beep) |
+| Ng Yen Yi | Backend / Technical Writer | [@ngyy111000-beep](https://github.com/ngyy111000-beep) |
 | Joey Ng Chu Yee | Frontend / Backend | [@joeyng050321-ux](https://github.com/joeyng050321-ux) |
-| Tan Joshuen | Ideation / Writer / Presenter | [@joshuen527](https://github.com/joshuen527) |
+| Tan Joshuen | Ideation / Documentation / Presenter | [@joshuen527](https://github.com/joshuen527) |
 
 ---
 
