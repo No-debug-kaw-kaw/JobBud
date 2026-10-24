@@ -51,7 +51,8 @@ JobBud is a future-ready career and reskilling platform that transforms users' e
 | ------------- | ---------------------------- |
 | Frontend      | Streamlit |
 | Backend       | Python |
-| Database      | O*NET |
+| Database      | Local CSV / JSON files |
+| AI/Compute    | Rule-based matching and reskilling logic; O*NET occupational data |
 | Hosting / Dev | Replit                       |
 
 ---
@@ -90,13 +91,13 @@ User ──► Replit (App / API) ──► RunPod Endpoint (GPU model)
 
 ## How to Run
 
-### Option 1 — Run on Replit (Recommended)
+### Option 1 — Access the Live Demo (Recommended)
 
-1. Open the [Replit Project](https://replit.com/@your-username/your-project), or import this repository via **Create Repl → Import from GitHub**.
-2. Open the **Secrets** tab (🔒) and add the variables listed in `.env.example`:
-   - `RUNPOD_API_KEY`
-   - `RUNPOD_ENDPOINT_ID`
-3. Click **Run**. Replit uses the `.replit` file to start `python src/main.py`.
+1. Open the [JobBud Live Demo](https://sdc-army0709.replit.app ) project in Replit.
+2. Once the application loads, complete the questionnaire or upload your CV to create your skills profile.
+3. Explore your career matches, skill gaps, personalised reskilling pathways, salary benchmarks, AI disruption scenarios and SDG mapping.
+
+Note: JobBud is a Python and Streamlit web application hosted on Replit. The live demo allows users to try the application directly without setting up the source code.
 
 ### Option 2 — Run Locally
 
