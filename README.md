@@ -156,23 +156,23 @@ Note: JobBud is a Python and Streamlit web application hosted on Replit. The liv
 
 ### Option 2 — Run Locally
 
+Prerequisites
+- Python 3.11 or newer
+- uv
+- Git
+
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/ngyy111000-beep/JobBud.git
+cd JobBud
 
-# 2. Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+# 2. Install project dependencies
+uv sync
 
-# 3. Install dependencies
-pip install -r requirements.txt
+# 3. Run the application
+uv run streamlit run src/app.py
+```
 
-# 4. Configure environment variables
-cp .env.example .env            # then fill in your values
-
-# 5. Run the app
-python src/main.py
 ```
 
 ### Run Tests
