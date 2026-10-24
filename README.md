@@ -159,10 +159,10 @@ Open the [JobBud Live Demo](https://sdc-army0709.replit.app).
 
 ### Option 2 — Run from Source
 
-View the source code on [GitHub](https://github.com/ngyy111000-beep/JobBud).
+View the source code on [GitHub](https://github.com/No-debug-kaw-kaw/JobBud).
 
 ```bash
-git clone https://github.com/ngyy111000-beep/JobBud.git
+git clone https://github.com/No-debug-kaw-kaw/JobBud.git
 cd JobBud
 python -m pip install uv
 uv sync
@@ -195,7 +195,7 @@ Replit is used as the primary cloud-based development, testing, and deployment e
 - **Hosting:** The JobBud Streamlit prototype is hosted through Replit, allowing the application to be accessed through a browser.
 - **Dependency Management:** Project dependencies are managed using `pyproject.toml` and `uv.lock`.
 
-📄 **Proof of Use:** [submission/SDC2026_No debug kaw kaw_POU.pdf](https://github.com/ngyy111000-beep/JobBud/blob/main/submission/SDC2026_No%20debug%20kaw%20kaw_Replit_POU.pdf)
+📄 **Proof of Use:** [submission/SDC2026_No debug kaw kaw_POU.pdf](https://github.com/No-debug-kaw-kaw/JobBud/blob/main/submission/SDC2026_No%20debug%20kaw%20kaw_Replit_POU.pdf)
 
 ## Challenges & Learnings
 
@@ -224,7 +224,7 @@ Most importantly, we learned that career guidance should not simply provide a jo
 | ----------- | ------------------- | ---------------------------------------- |
 | Po Rou Jing | Team Lead / Frontend /Backend | [@roujing0708](https://github.com/roujing0708) |
 | Soo Yong Xin | Frontend / Backend | [@yongxinsoo-bit](https://github.com/yongxinsoo-bit) |
-| Ng Yen Yi | Backend / Technical Writer | [@ngyy111000-beep](https://github.com/ngyy111000-beep) |
+| Ng Yen Yi | Backend / Technical Writer | [@No-debug-kaw-kaw](https://github.com/No-debug-kaw-kaw) |
 | Joey Ng Chu Yee | Frontend / Backend | [@joeyng050321-ux](https://github.com/joeyng050321-ux) |
 | Tan Joshuen | Ideation / Documentation / Presenter | [@joshuen527](https://github.com/joshuen527) |
 
