@@ -22,7 +22,6 @@
 | Resource          | Link                                           |
 | ----------------- | ---------------------------------------------- |
 | GitHub Repository | https://github.com/ngyy111000-beep/JobBud      |
-| Replit Project    | https://replit.com/@your-username/your-project |
 | Live Demo         | https://sdc-army0709.replit.app                |
 | Slide Deck        | https://example.com/slides                     |
 | Demo Video        | https://example.com/demo-video                 |
@@ -33,17 +32,17 @@
 
 ### Problem
 
-Over 60% of university fresh graduates and career switchers feel unprepared for an AI-driven job market where skills rapidly become obsolete and traditional career guidance falls behind. Without clear line-of-sight into future industry shifts, high-potential talent wastes months on outdated upskilling, while employers face widening skill gaps. Our platform solves this by using predictive AI to map emerging and declining roles, automatically generate personalized reskilling pathways and connect every skill to the 17 UN Sustainable Development Goals to guide purpose-driven careers.
+Fresh graduates and career switchers often struggle to identify suitable career paths, understand how AI is changing job-market demands and determine which skills they should develop next. With career information, industry trends and learning resources scattered across different platforms, users risk spending time on irrelevant upskilling while employers continue to face skills gaps. Without clearer career guidance and actionable learning plans, it becomes difficult for individuals to prepare for an evolving, AI-driven job market.
 
 ### Solution
 
-Our solution uses a focused AI stack to transform static resume data into dynamic, future-proof career pathways. By programmatically reading uploaded CVs, Natural Language Processing (NLP) extracts and categorizes the candidate’s tools used, skills profile, and knowledge areas into a structured baseline. Machine Learning models trained on labor market trends evaluate this baseline to forecast emerging roles and identify critical skill gaps. Generative AI then constructs personalized reskilling pathways, recommending targeted free online learning resources for each core area and mapping every skill directly to the 17 UN Sustainable Development Goals to guide sustainable career growth.
+JobBud is a future-ready career and reskilling platform that transforms users' existing skills into personalised career directions and actionable learning pathways. By allowing users to complete a skills questionnaire or upload their CV, JobBud extracts potential skills, knowledge areas and tools to build a structured profile, which users can review and rate themselves. It combines explainable career matching based on O*NET occupational data with job-market signals, AI disruption scenarios and prioritised skill-gap analysis to help users explore career opportunities and identify what to learn next. JobBud also incorporates Malaysian salary context and maps relevant career roles to the UN Sustainable Development Goals (SDGs) to encourage informed and purpose-driven career planning.
 
 ### Key Features
 
-- **Automated CV Intelligence (Code Parser & NLP)** — Programmatically parses uploaded PDF resumes to identify and categorize candidate tools used, skills profiles and core knowledge areas into a standardized profile.
-- **Predictive Skill-Gap Analysis (Machine Learning)** — Maps candidate tools and knowledge baselines against labor market datasets to predict emerging role demands and highlight precise skill gaps.
-- **Dynamic Pathway & Resource Curation (Generative AI)** — Recommends personalized reskilling pathways with curated free learning resources while aligning every skill and role to the 17 UN Sustainable Development Goals.
+- **Automated CV-Assisted Profiling** — Parses uploaded PDF or DOCX CVs to suggest relevant skills, knowledge areas and tools, reducing repetitive data entry while allowing users to confirm suggestions and rate their own proficiency.
+- **Explainable Career Matching & AI-Era Insights** — Matches users against 11 O*NET occupations using skills, knowledge and technology data, supplemented by available job-market signals and moderate-versus-fast AI disruption scenarios. Recommendations include matching scores, assessment confidence, strengths and skill gaps.
+- **Personalised Reskilling Pathways & SDG Mapping** — Prioritises skill gaps for a selected career and recommends structured learning steps with estimated learning times and verified resources where available. Career roles are also mapped to relevant UN Sustainable Development Goals, with explanations and links to official references.
 
 ### Tech Stack
 
@@ -61,8 +60,6 @@ Our solution uses a focused AI stack to transform static resume data into dynami
 ```
 .
 ├── docs/                    # Screenshots, diagrams
-├── runpod/
-│   └── handler.py           # RunPod serverless handler (GPU workload)
 ├── src/
 │   ├── main.py              # Application entry point
 │   └── utils.py             # Helper functions
@@ -159,10 +156,10 @@ Technically, we gained valuable experience in prompt engineering and utilizing R
 | Name        | Role                | GitHub                                   |
 | ----------- | ------------------- | ---------------------------------------- |
 | Po Rou Jing | Team Lead / Frontend | [@roujing0708](https://github.com/roujing0708) |
-| Soo Yong Xin | Frontend / AI | [@yongxinsoo-bit](https://github.com/yongxinsoo-bit) |
+| Soo Yong Xin | Frontend / Backend | [@yongxinsoo-bit](https://github.com/yongxinsoo-bit) |
 | Ng Yen Yi | Backend / Writer | [@ngyy111000-beep](https://github.com/ngyy111000-beep) |
-| Joey Ng Chu Yee | AI / Backend | [@joeyng050321-ux](https://github.com/joeyng050321-ux) |
-| Tan Joshuen | Ideation / Presenter | [@joshuen527](https://github.com/joshuen527) |
+| Joey Ng Chu Yee | Frontend / Backend | [@joeyng050321-ux](https://github.com/joeyng050321-ux) |
+| Tan Joshuen | Ideation / Writer / Presenter | [@joshuen527](https://github.com/joshuen527) |
 
 ---
 
