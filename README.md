@@ -158,26 +158,24 @@ Note: JobBud is a Python and Streamlit web application hosted on Replit. The liv
 
 Prerequisites
 - Python 3.11 or newer
-- uv
 - Git
+- uv package manager
 
-```bash
+**Steps**
 # 1. Clone the repository
 git clone https://github.com/ngyy111000-beep/JobBud.git
 cd JobBud
 
-# 2. Install project dependencies
+# 2. Install the project dependencies
 uv sync
 
 # 3. Run the application
 uv run streamlit run src/app.py
-```
 
-### Run Tests
+# 4. Open the local URL displayed in the terminal, usually http://localhost:8501, to access JobBud.
 
-```bash
-python -m unittest discover tests
-``` 
+Note: The application requires the project files and the data/ directory to remain in their expected locations. Internet access may be required for external job-market data and other online resources.
+
 ---
 
 ## How We Use Replit *(Required)*
