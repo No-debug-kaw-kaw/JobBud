@@ -188,7 +188,7 @@ Replit is used as the primary cloud-based development, testing, and deployment e
 - **Hosting:** The JobBud Streamlit prototype is hosted through Replit, allowing the application to be accessed through a browser.
 - **Dependency Management:** Project dependencies are managed using `pyproject.toml` and `uv.lock`.
 
-📄 **Proof of Use:** [submission/SDC2026_No debug kaw kaw_POU.pdf]([submission/SDC2026_No debug kaw kaw_POU.pdf](https://github.com/ngyy111000-beep/JobBud/blob/main/submission/SDC2026_No%20debug%20kaw%20kaw_Replit_POU.pdf))
+📄 **Proof of Use:** [submission/SDC2026_No debug kaw kaw_POU.pdf](https://github.com/ngyy111000-beep/JobBud/blob/main/submission/SDC2026_No%20debug%20kaw%20kaw_Replit_POU.pdf)
 
 ## Challenges & Learnings
 
