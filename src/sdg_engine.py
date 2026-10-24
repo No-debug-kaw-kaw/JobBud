@@ -5,8 +5,8 @@ from pathlib import Path
 from typing import Any
 
 
-BASE_DIR = Path(__file__).resolve().parent
-MAPPING_FILE = BASE_DIR / "config" / "sdg_mapping.json"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+MAPPING_FILE = PROJECT_ROOT / "config" / "sdg_mapping.json"
 
 
 def load_sdg_mapping(path: Path | None = None) -> dict[str, Any]:
