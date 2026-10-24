@@ -24,7 +24,7 @@
 | ----------------- | ---------------------------------------------- |
 | GitHub Repository | https://github.com/No-debug-kaw-kaw/JobBud     |
 | Live Demo         | https://sdc-army0709.replit.app                |
-| Slide Deck        | https://example.com/slides                     |
+| Slide Deck        | https://sharayeh.com/en/public-view/a8e32845-2673-4564-9bac-edebaac6e09b |
 | Demo Video        | https://example.com/demo-video                 |
 
 ---
