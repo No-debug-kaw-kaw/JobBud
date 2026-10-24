@@ -1,0 +1,298 @@
+{
+  "resources": [
+    {
+      "id": "python",
+      "title": "The Python Tutorial",
+      "provider": "Python documentation",
+      "url": "https://docs.python.org/3/tutorial/",
+      "cost": "Free",
+      "keywords": [
+        "python"
+      ],
+      "description": "Official tutorial covering Python fundamentals."
+    },
+    {
+      "id": "sql",
+      "title": "Query and modify data with Transact-SQL",
+      "provider": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/",
+      "cost": "Free",
+      "keywords": [
+        "sql",
+        "transact-sql",
+        "mysql",
+        "postgresql",
+        "oracle sql"
+      ],
+      "description": "Free self-paced SQL learning path."
+    },
+    {
+      "id": "power-bi",
+      "title": "Get started with Power BI",
+      "provider": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/paths/get-started-power-bi/",
+      "cost": "Free",
+      "keywords": [
+        "power bi"
+      ],
+      "description": "Free self-paced Power BI learning path."
+    },
+    {
+      "id": "excel",
+      "title": "Excel help and learning",
+      "provider": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/excel",
+      "cost": "Free online learning materials",
+      "keywords": [
+        "excel",
+        "microsoft excel"
+      ],
+      "description": "Official Excel tutorials, help, and learning materials."
+    },
+    {
+      "id": "vba",
+      "title": "Visual Basic for Applications language reference",
+      "provider": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/office/vba/api/overview/language-reference",
+      "cost": "Free",
+      "keywords": [
+        "vba",
+        "visual basic for applications",
+        "microsoft visual basic for applications"
+      ],
+      "description": "Official Microsoft VBA reference with concepts, programming tasks, examples, and language documentation."
+    },
+    {
+      "id": "tableau",
+      "title": "Tableau Desktop free training videos",
+      "provider": "Tableau",
+      "url": "https://www.tableau.com/learn/training?product=Tableau+Desktop",
+      "cost": "Free training videos",
+      "keywords": [
+        "tableau",
+        "tableau desktop"
+      ],
+      "description": "Official Tableau Desktop training videos."
+    },
+    {
+      "id": "r",
+      "title": "An Introduction to R",
+      "provider": "The R Project / CRAN",
+      "url": "https://cran.r-project.org/doc/manuals/R-intro.html",
+      "cost": "Free",
+      "keywords": [
+        "r",
+        "r language"
+      ],
+      "description": "Official introductory manual for the R language."
+    },
+    {
+      "id": "aws",
+      "title": "AWS Skill Builder digital training",
+      "provider": "Amazon Web Services",
+      "url": "https://aws.amazon.com/training/digital/",
+      "cost": "Free digital training options available",
+      "keywords": [
+        "amazon web services",
+        "aws",
+        "sagemaker"
+      ],
+      "description": "Official AWS digital training catalog with free digital learning options."
+    },
+    {
+      "id": "cpp",
+      "title": "C++ documentation and tutorials",
+      "provider": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/cpp/cpp",
+      "cost": "Free",
+      "keywords": [
+        "c++",
+        "cpp"
+      ],
+      "description": "Official Microsoft C++ documentation with tutorials, language references, and examples."
+    },
+    {
+      "id": "csharp",
+      "title": "Write your first code using C#",
+      "provider": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/",
+      "cost": "Free",
+      "keywords": [
+        "c#",
+        "c sharp"
+      ],
+      "description": "Beginner Microsoft Learn pathway covering C# syntax, variables, operations, and simple applications."
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript Guide",
+      "provider": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "cost": "Free",
+      "keywords": [
+        "javascript",
+        "java script"
+      ],
+      "description": "Comprehensive JavaScript guide covering syntax, functions, objects, classes, promises, modules, and other core topics."
+    },
+    {
+      "id": "linux",
+      "title": "The Linux command line for beginners",
+      "provider": "Ubuntu",
+      "url": "https://ubuntu.com/desktop/docs/en/latest/tutorial/the-linux-command-line-for-beginners/",
+      "cost": "Free",
+      "keywords": [
+        "linux",
+        "unix",
+        "linux operating system"
+      ],
+      "description": "Beginner-friendly official Ubuntu tutorial introducing the Linux command line and common terminal operations."
+    },
+    {
+      "id": "apache-hive",
+      "title": "Apache Hive Documentation",
+      "provider": "Apache Software Foundation",
+      "url": "https://hive.apache.org/docs/latest/",
+      "cost": "Free",
+      "keywords": [
+        "apache hive",
+        "hive"
+      ],
+      "description": "Official Apache Hive documentation covering SQL-based data warehousing, language usage, and administration."
+    },
+    {
+      "id": "apache-pig",
+      "title": "Apache Pig Documentation",
+      "provider": "Apache Software Foundation",
+      "url": "https://pig.apache.org/",
+      "cost": "Free",
+      "keywords": [
+        "apache pig",
+        "pig latin"
+      ],
+      "description": "Official Apache Pig resources for learning large-scale data analysis using Pig Latin."
+    },
+    {
+      "id": "sas",
+      "title": "SAS Programming",
+      "provider": "SAS",
+      "url": "https://learn.sas.com/programming",
+      "cost": "Free course options available",
+      "keywords": [
+        "sas",
+        "sas software"
+      ],
+      "description": "Official SAS learning catalog including free beginner SAS Programming courses."
+    },
+    {
+      "id": "spss",
+      "title": "IBM SPSS Statistics Documentation",
+      "provider": "IBM",
+      "url": "https://www.ibm.com/docs/en/spss-statistics/32.0.0?topic=spss-statistics-32-documentation",
+      "cost": "Free documentation; SPSS software may require a licence",
+      "keywords": [
+        "spss",
+        "ibm spss",
+        "spss statistics"
+      ],
+      "description": "Official IBM documentation covering SPSS Statistics, data analysis, hypothesis testing, predictive analytics, and visualization."
+    },
+    {
+      "id": "critical-thinking",
+      "title": "Extending and developing your thinking skills",
+      "provider": "OpenLearn - The Open University",
+      "url": "https://www.open.edu/openlearn/education-development/extending-and-developing-your-thinking-skills",
+      "cost": "Free",
+      "keywords": [
+        "critical thinking"
+      ],
+      "description": "Free OpenLearn course covering questioning, reasoning, diagrams, decision trees, and structured thinking skills."
+    },
+    {
+      "id": "systems-analysis",
+      "title": "Systems thinking and practice",
+      "provider": "OpenLearn - The Open University",
+      "url": "https://www.open.edu/openlearn/digital-computing/systems-thinking-and-practice",
+      "cost": "Free",
+      "keywords": [
+        "systems analysis",
+        "systems evaluation",
+        "systems thinking"
+      ],
+      "description": "Free course introducing systems concepts, boundaries, feedback, environments, and approaches for analysing complex situations."
+    },
+    {
+      "id": "economics",
+      "title": "Principles of Economics 3e",
+      "provider": "OpenStax",
+      "url": "https://openstax.org/details/books/principles-economics-3e/",
+      "cost": "Free online textbook",
+      "keywords": [
+        "economics and accounting",
+        "economics",
+        "economic"
+      ],
+      "description": "Free introductory economics textbook covering major microeconomic and macroeconomic concepts."
+    },
+    {
+      "id": "accounting",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "provider": "OpenStax",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/preface",
+      "cost": "Free online textbook",
+      "keywords": [
+        "accounting",
+        "financial accounting"
+      ],
+      "description": "Free accounting textbook covering financial statements, transactions, accounting systems, assets, liabilities, and cash flows."
+    },
+    {
+      "id": "mathematics",
+      "title": "Precalculus 2e",
+      "provider": "OpenStax",
+      "url": "https://openstax.org/books/precalculus-2e/pages/preface",
+      "cost": "Free online textbook",
+      "keywords": [
+        "mathematics",
+        "math"
+      ],
+      "description": "Free mathematics resource covering functions, algebra, trigonometry, systems, sequences, probability, and introductory limits."
+    },
+    {
+      "id": "kaggle-python",
+      "title": "Learn Python",
+      "provider": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn/python",
+      "cost": "Free",
+      "keywords": [
+        "data analysis",
+        "data analytics"
+      ],
+      "description": "Free hands-on Python learning for data science."
+    },
+    {
+      "id": "complex-problem-solving",
+      "title": "Key skill assessment unit: problem solving",
+      "provider": "OpenLearn - The Open University",
+      "url": "https://www.open.edu/openlearn/education-development/key-skill-assessment-unit-problem-solving/content-section-0",
+      "cost": "Free",
+      "keywords": [
+        "complex problem solving",
+        "problem solving"
+      ],
+      "description": "Free OpenLearn resource covering problem definition, strategy development, monitoring progress, and evaluation of solutions."
+    },
+    {
+      "id": "powerpoint",
+      "title": "PowerPoint help & learning",
+      "provider": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/powerpoint/index",
+      "cost": "Free online learning materials",
+      "keywords": [
+        "powerpoint",
+        "microsoft powerpoint"
+      ],
+      "description": "Official Microsoft PowerPoint learning materials covering presentations, design, collaboration, animation, charts, and delivery."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "label": "Interpretive contribution mapping based on role characteristics and official UN SDG definitions.",
+  "official_goals": {
+    "4": {
+      "title": "Quality Education",
+      "source_url": "https://sdgs.un.org/goals/goal4"
+    },
+    "8": {
+      "title": "Decent Work and Economic Growth",
+      "source_url": "https://sdgs.un.org/goals/goal8"
+    },
+    "9": {
+      "title": "Industry, Innovation and Infrastructure",
+      "source_url": "https://sdgs.un.org/goals/goal9"
+    },
+    "16": {
+      "title": "Peace, Justice and Strong Institutions",
+      "source_url": "https://sdgs.un.org/goals/goal16"
+    }
+  },
+  "careers": {
+    "Business Intelligence Analysts": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Business intelligence can help organizations use information to improve productivity and make more informed operating decisions.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 9,
+        "title": "Industry, Innovation and Infrastructure",
+        "rationale": "Reliable analysis supports data-informed innovation and the improvement of organizational systems.",
+        "source_url": "https://sdgs.un.org/goals/goal9"
+      }
+    ],
+    "Data Scientists": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Applied data analysis can support productivity and evidence-informed decisions in organizations.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 9,
+        "title": "Industry, Innovation and Infrastructure",
+        "rationale": "Data science methods can contribute to research, technological capability, and innovation.",
+        "source_url": "https://sdgs.un.org/goals/goal9"
+      }
+    ],
+    "Statisticians": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Statistical evidence can help employers and institutions evaluate outcomes and make better-informed decisions.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 9,
+        "title": "Industry, Innovation and Infrastructure",
+        "rationale": "Sound measurement and statistical methods support research and innovation.",
+        "source_url": "https://sdgs.un.org/goals/goal9"
+      }
+    ],
+    "Actuaries": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Risk assessment can support financial planning and the resilience of economic organizations.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      }
+    ],
+    "Economists": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Economic analysis can inform decisions about productivity, employment, and sustainable economic activity.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      }
+    ],
+    "Market Research Analysts and Marketing Specialists": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Market evidence can help organizations understand demand and make more informed product and service decisions.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 9,
+        "title": "Industry, Innovation and Infrastructure",
+        "rationale": "Research into customer needs can inform the development and improvement of products and services.",
+        "source_url": "https://sdgs.un.org/goals/goal9"
+      }
+    ],
+    "Accountants and Auditors": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Accurate financial records and audit work support accountable, productive organizations.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 16,
+        "title": "Peace, Justice and Strong Institutions",
+        "rationale": "Transparent reporting and assurance can strengthen accountability in organizations and institutions.",
+        "source_url": "https://sdgs.un.org/goals/goal16"
+      }
+    ],
+    "Management Analysts": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Management analysis can identify ways for organizations to improve their operations and productivity.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      }
+    ],
+    "Financial Quantitative Analysts": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Quantitative financial analysis supports informed assessment of economic and investment decisions.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 9,
+        "title": "Industry, Innovation and Infrastructure",
+        "rationale": "Quantitative models and data systems contribute to analytical capability and financial innovation.",
+        "source_url": "https://sdgs.un.org/goals/goal9"
+      }
+    ],
+    "Loan Officers": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Responsible credit assessment can support access to financing for households and businesses.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      }
+    ],
+    "Financial Examiners": [
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Financial oversight can help support sound, resilient financial organizations.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 16,
+        "title": "Peace, Justice and Strong Institutions",
+        "rationale": "Examination and compliance work can contribute to accountable financial institutions.",
+        "source_url": "https://sdgs.un.org/goals/goal16"
+      }
+    ]
+  },
+  "skill_categories": {
+    "essential": [
+      {
+        "number": 4,
+        "title": "Quality Education",
+        "rationale": "Developing occupational skills is an ongoing learning activity that supports access to relevant skills.",
+        "source_url": "https://sdgs.un.org/goals/goal4"
+      },
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Role-specific skills can support readiness for productive work.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      }
+    ],
+    "transferable": [
+      {
+        "number": 4,
+        "title": "Quality Education",
+        "rationale": "Transferable skills can be developed through lifelong learning and applied across work settings.",
+        "source_url": "https://sdgs.un.org/goals/goal4"
+      },
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Problem-solving, communication, and coordination can support effective participation in work.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      }
+    ],
+    "knowledge": [
+      {
+        "number": 4,
+        "title": "Quality Education",
+        "rationale": "Building relevant subject knowledge is part of access to useful learning and skills development.",
+        "source_url": "https://sdgs.un.org/goals/goal4"
+      },
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Applied occupational knowledge can support productive work and informed decisions.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      }
+    ],
+    "technology": [
+      {
+        "number": 4,
+        "title": "Quality Education",
+        "rationale": "Learning relevant digital tools is an area for continuing skills development.",
+        "source_url": "https://sdgs.un.org/goals/goal4"
+      },
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "rationale": "Digital technology skills can support effective participation in changing workplaces.",
+        "source_url": "https://sdgs.un.org/goals/goal8"
+      },
+      {
+        "number": 9,
+        "title": "Industry, Innovation and Infrastructure",
+        "rationale": "The responsible use of digital tools can contribute to innovation and stronger analytical systems.",
+        "source_url": "https://sdgs.un.org/goals/goal9"
+      }
+    ]
+  }
+}
